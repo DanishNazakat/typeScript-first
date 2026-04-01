@@ -4,7 +4,7 @@ console.log(message);
 
 // let rawData ;
 
-type RawData = boolean | string | number |null | undefined;
+// type RawData = boolean | string | number |null | undefined;
 
 let name : RawData = 30;
 
