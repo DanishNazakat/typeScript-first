@@ -1,4 +1,4 @@
-let message: string|number =30;
+let message: string|number = "hello TypeScript";
 
 console.log(message);
 
