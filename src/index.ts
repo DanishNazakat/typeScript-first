@@ -1,11 +1,27 @@
-let message: string|number = "hello TypeScript";
+// let message: string|number = "hello TypeScript";
 
-console.log(message);
+// console.log(message);
 
-// let rawData ;
+// // let rawData ;
 
-type RawData = boolean | string | number |null | undefined;
+// type RawData = boolean | string | number |null | undefined;
 
-let name : RawData = 30;
+// let name : RawData = 30;
 
-console.log(name)
+// console.log(name)
+
+
+
+interface IManagement {
+    staffId: number | string,
+    staffName: string
+}
+
+
+interface IStudent {
+    StudentId?: number | string,
+    StudentName?: string
+}
+
+type intersectedType = IManagement & IStudent
+
