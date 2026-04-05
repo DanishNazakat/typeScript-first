@@ -25,3 +25,11 @@ interface IStudent {
 
 type intersectedType = IManagement & IStudent
 
+let  campusDAta : intersectedType = {
+    staffId:10001,
+    staffName: "abid",
+    StudentId:23231,
+    // StudentName : "Danish"
+}
+
+console.log(campusDAta);
