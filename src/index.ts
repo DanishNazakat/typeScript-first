@@ -12,18 +12,18 @@
 
 
 
-// interface IManagement {
-//     staffId: number | string,
-//     staffName: string
-// }
+interface IManagement {
+    staffId: number | string,
+    staffName: string
+}
 
 
-// interface IStudent {
-//     StudentId?: number | string,
-//     StudentName?: string
-// }
+interface IStudent {
+    StudentId?: number | string,
+    StudentName?: string
+}
 
-// type intersectedType = IManagement & IStudent
+type intersectedType = IManagement & IStudent
 
 let  campusDAta : intersectedType = {
     staffId:10001,
