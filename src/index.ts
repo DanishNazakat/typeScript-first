@@ -18,10 +18,6 @@ interface IManagement {
 }
 
 
-interface IStudent {
-    StudentId?: number | string,
-    StudentName?: string
-}
 
 type intersectedType = IManagement & IStudent
 
